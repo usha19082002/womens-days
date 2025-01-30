@@ -1,0 +1,340 @@
+/*  */
+.mobile_menu{
+    display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+    /* CSS styles for screens with a maximum width of 768px */
+    .buttons {
+        margin: 7px !important;
+        padding: 6px !important;
+        font-size: 12px;
+
+    }
+    .mobile_menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-img{
+        width: 60px !important;
+    }
+    .nav-imgt1{
+        width: 90px !important;
+    }
+    .nav-imgt2{
+        width: 80px !important;
+    }
+    .mainNavitem{
+        padding: 0 !important;
+    }
+    .banner_heading {
+        font-size: 8px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    .mobileNav{
+        display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    }
+    .mobileNav li{
+        border-bottom: 1px solid violet;
+        /* border-radius: 10px; */
+        padding: 2px !important;
+        margin: 3px !important;
+    }
+
+    .bannerRed {
+        font-size: 8px !important;
+        margin: 0 !important;
+    }
+
+    .bannerBtn {
+        font-size: 8px;
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-left: 8px !important;
+        width: 80px;
+        height: 30px;
+    }
+
+    .offer {
+        width: 100% !important;
+        padding: 0 !important;
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+        padding: 0px 15px 0px 15px !important;
+    }
+
+    .offer h2 {
+        margin-bottom: 0 !important;
+    }
+
+    .width {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .product-card {
+        /* background-color: red; */
+        width: 100% !important;
+        padding: 5px !important;
+        margin: 0 !important;
+
+    }
+
+    .prod-img {
+        width: 100% !important;
+        height: 240px !important;
+    }
+
+    .prod-txt {
+        font-size: 13px !important;
+    }
+
+    .cart-btn {
+        position: absolute;
+        width: 95%;
+        height: 60px;
+        top: 190px;
+        opacity: 1;
+        transition: top 0.3s ease, opacity 0.3s ease;
+        visibility: hidden;
+    }
+
+    .hbtn {
+        display: none !important;
+    }
+
+    .crd {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 50% !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .crd h4 {
+        /* background-color: red; */
+        width: 70px;
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0 auto; 
+    }
+
+    .crd h6 {
+        /* background-color: red; */
+        width: 70px;
+        position: absolute;
+        top: 55%;
+        left: 15%;
+        font-size: 11px;
+        font-weight: 600;
+        margin: 0 auto; 
+    }
+    .product-mobile{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .sprod-img{
+        width:330px !important;
+    }
+    .spre-img{
+        margin: 3px !important;
+        width: 60px !important;
+        height: 60px !important;
+    }
+    .sprod-txt{
+        display: none;
+    }
+    .scart-btn{
+        width: 47% !important;
+    }
+    
+    .srview-txt{
+        font-size: 13px !important;
+        /* background-color: red !important; */
+        margin: 0 !important;
+        padding: 5px !important;
+    }
+    .keying{
+        display: none;
+    }
+    .info{
+        margin: 0 !important;
+        padding: 5px !important;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    /* CSS styles for screens with a width between 769px and 1024px */
+
+    .buttons {
+        margin: 7px !important;
+        padding: 6px !important;
+        font-size: 12px;
+
+    }
+    .mobile_menu{
+        display: flex;
+        flex-direction: row;
+        margin: 0 !important;
+    }
+    .mobile_menu li{
+      
+        /* margin: 50px !important; */
+        padding: 0px 25px 0px 25px !important;
+    }
+    .nav-img{
+        width: 120px !important;
+    }
+    .nav-imgt1{
+        width: 170px !important;
+    }
+    .nav-imgt2{
+        width: 140px !important;
+    }
+    .mainNavitem{
+        padding: 0 !important;
+    }
+    .banner_heading {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    .mobileNav{
+        display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    }
+    .mobileNav li{
+        border-bottom: 1px solid violet;
+        /* border-radius: 10px; */
+        padding: 2px !important;
+        margin: 3px !important;
+    }
+
+    .bannerRed {
+        font-size: 18px !important;
+        margin: 0 !important;
+    }
+
+    .bannerBtn {
+        font-size: 18px;
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-left: 8px !important;
+        width: 150px;
+        height: 30px;
+    }
+
+    .offer {
+        width: 75% !important;
+        padding: 0 !important;
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+        padding: 0px 15px 0px 15px !important;
+    }
+
+    .offer h2 {
+        margin-bottom: 0 !important;
+    }
+
+    .width {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .product-card {
+        /* background-color: red; */
+        width: 100% !important;
+        padding: 5px !important;
+        margin: 0 !important;
+
+    }
+
+    .prod-img {
+        width: 100% !important;
+        height: 240px !important;
+    }
+
+    .prod-txt {
+        font-size: 18px !important;
+    }
+
+    .cart-btn {
+        position: absolute;
+        width: 97%;
+        height: 60px;
+        top: 190px;
+        opacity: 1;
+        transition: top 0.3s ease, opacity 0.3s ease;
+        visibility: hidden;
+    }
+
+    .hbtn {
+        display: none !important;
+    }
+
+    .crd {
+        width: 250px !important;
+        height: 250px !important;
+        border-radius: 50% !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .crd h4 {
+        /* background-color: red; */
+        width: 170px;
+        position: absolute;
+        top: 35%;
+        left: 19%;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0 auto; 
+    }
+
+    .crd h6 {
+        /* background-color: red; */
+        width: 150px;
+        position: absolute;
+        top: 55%;
+        left: 19%;
+        font-size: 23px;
+        font-weight: 600;
+        margin: 0 auto; 
+    }
+    .product-mobile{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1025px) {
+    /* CSS styles for screens with a minimum width of 1025px */
+    /* body{
+        background-color: red;
+    } */
+    #navbarSupportedContent li{
+        /* background-color: rgb(224, 26, 26); */
+        font-size: xx-small;
+    }
+}
